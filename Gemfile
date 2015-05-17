@@ -4,6 +4,7 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'tzinfo-data'
 gem 'devise', '3.4.1'
+gem 'mysql2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
