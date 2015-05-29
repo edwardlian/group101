@@ -8,7 +8,7 @@
 puts "Create Dummy Data!"
 puts "Create Account*1, Group*10, Post*20"
 
-create_account = User.create [email: "example@gmail.com", password: "12345678", password_confirmation: "12345678"]
+create_account = User.create [name: "Example", email: "example@gmail.com", password: "12345678", password_confirmation: "12345678"]
 
 create_groups = for i in 1..10 do
   Group.create! [title: "Group No.#{i}", description: "種子的第 #{i} 個討論版", user_id: "1"]
