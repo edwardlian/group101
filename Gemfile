@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'tzinfo-data'
-gem 'devise', '3.4.1'
+gem 'devise', '4.7.1'
 gem 'pg'
 gem 'rails_12factor', group: :production
 
